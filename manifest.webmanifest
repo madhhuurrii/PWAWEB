@@ -1,0 +1,28 @@
+{
+    "short_name": "PWA",
+    "name": "PWA Lab Manual",
+    "icons": [
+        {
+         "src": "assets/images/flower.png",
+         "sizes": "48x48",
+         "type": "image/png",
+         "purpose": "any"
+         }
+        ],
+        "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "PWA",
+        "short_name": "PWA1",
+        "description": "PWA Lab 1",
+        "url": "?source=pwa",
+        "icons": [{ "src": "assets/images/flower.png",
+            "sizes": "144x144" }]
+      }
+    ]
+}
